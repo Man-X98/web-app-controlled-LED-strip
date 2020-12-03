@@ -15,8 +15,8 @@ Communication works over wifi.
 </ul>
 
 <h2>How to use:</h2>
-<p>For desktop use: go to "IP OF YOUR RASPBERRY":80
-For mobile use: go to "IP OF YOUR RASPBERRY":80/mobile</p>
+<p>For desktop use: go to "IP OF YOUR RASPBERRY":80</p>
+<p>For mobile use: go to "IP OF YOUR RASPBERRY":80/mobile</p>
 
 <h2>How it works:</h2>
 <p>The flask based web app handles user input and stores the values for each volor in a list. The nodeMUC gets these values as a string via a http get request. Then the passed string is split uo into the three original values and the nodeMCU sets the PWM values accordingly. The transistors are needed to controll the higher powerded LEDs </p>
