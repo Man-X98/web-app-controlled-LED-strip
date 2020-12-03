@@ -23,4 +23,4 @@ For mobile use: go to "IP OF YOUR RASPBERRY":80/mobile</p>
 <p>In my case a 12V powersupply powers the nodeMCU and the LEDS. If you power the nodeMCU via a standart USB charger you dont need a 12V to 5V converter</>
 <br>
 <h4>Sources:</h4>
-<p>got most of the NodeMCU code from this <a href="https://randomnerdtutorials.com/esp8266-nodemcu-http-get-post-arduino/" target = “_blank”>Website</a></p>
+<p>got most of the NodeMCU code from this <a href="https://randomnerdtutorials.com/esp8266-nodemcu-http-get-post-arduino/" target="_blank">Website</a></p>
