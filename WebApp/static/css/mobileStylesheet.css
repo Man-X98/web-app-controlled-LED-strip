@@ -1,0 +1,43 @@
+body {
+    background-color: dimgray;
+    font-family: Helvetica;
+    color: darkorange;
+    width: 540px;
+    height: 925px;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+
+button {
+    background-color: dimgray;
+    font-family: Helvetica;
+    color: darkorange;
+    border: 3px solid darkorange;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submitButton{
+    background-color: dimgray;
+    font-family: Helvetica;
+    color: darkorange;
+    border: 3px solid darkorange;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buttons_div {
+    display:flex;
+    width: 100%:
+    justify-content: center;
+}
+
+.range_input{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space around;
+}

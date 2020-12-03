@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/stylesheet.css') }}>
+    <meta charset="UTF-8">
+    <title>LED APP</title>
+
+</head>
+<body>
+   <!-- <nav>
+        <ul>
+            <li><a href="#led">LEDs</a></li>
+            <li><a href="#desktop">Power Desktop</a></li>
+            <li><a href="#printer" >Power Printer</a></li>
+        </ul>
+    </nav>-->
+    <main>
+        <section id="led">
+            <h2>LEDs</h2>
+            <form action="/" method="POST">
+            <label for="red">Red: </label><input class="rangeslider" type="range" id="red" min="0" max="1023" step="1" name="redvalue" value="{{ red }}"><br>
+                <label for="green">Green: </label><input type="range" id="green" min="0" max="1023" step="1" name="greenvalue" value="{{ green }}"><br>
+            <label for="blue">Blue: </label><input type="range" id="blue" min="0" max="1023" step="1" name="bluevalue" value="{{ blue }}"><br><br>
+
+
+                <input class="submitButton" type="submit" value="Apply"></form>
+        </section>
+        <br>
+            <button onclick="window.location.href='/on';">LEDs on</button>
+            <button onclick="window.location.href='/off';">LEDs off</button>
+        </section>
+<!--        <section id="desktop">-->
+<!--            <h2>Power Desktop</h2>-->
+
+<!--        </section>-->
+<!--        <section id="printer">-->
+<!--            <h2>Power Printer</h2>-->
+
+<!--        </section>-->
+    </main>
+<!--    <footer>
+        <p>Smarthome WebApp by Johannes Däges</p>
+    </footer>-->
+</body>
+</html>
