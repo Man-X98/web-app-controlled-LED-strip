@@ -1,2 +1,7 @@
 This is the code for the web app. To use the web app make sure you download the whole web app folder and place it on your raspberry.
-Dont change up the structure of the folder
+Dont change up the structure of the folder.
+
+I recommend setting up a fixed IP for the raspberry. 
+Otherwise your router might assign a new IP to your raspberry and the NodeMCU can no longer get the required information from it.
+
+If your router supports it, this can easily be done with the web interface of your router. Just look for something like DHCP reservation and enter the needed infromation
