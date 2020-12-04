@@ -2,6 +2,17 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 
+/*
+  Rui Santos
+  Complete project details at Complete project details at https://RandomNerdTutorials.com/esp8266-nodemcu-http-get-post-arduino/
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files.
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+*/
+
 //PinOut:
 //Pin 2: D4 --> Red in WebApp
 //Pin 0: D3 --> Green in WebApp
