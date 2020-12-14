@@ -10,7 +10,7 @@ Communication works over wifi.
   <li>3 MOSFET transistors</li>
   <li>12V to 5V converter</li>
   <li>12V powersupply</li>
-  <li>LED strip</li>
+  <li>LED strip (non addressable, just +12V and R, G, B connectors)</li>
   <li>cables and some blank circuit board to solder everything onto</li>
 </ul>
 
