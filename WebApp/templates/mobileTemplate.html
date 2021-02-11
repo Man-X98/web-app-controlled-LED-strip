@@ -22,8 +22,8 @@
             <form action="/mobile" method="POST">
             <label for="red">Red: </label><input class="rangeslider" type="range" id="red" min="0" max="1023" step="1" name="redvalue" value="{{ red }}"><br>
                 <label for="green">Green: </label><input type="range" id="green" min="0" max="1023" step="1" name="greenvalue" value="{{ green }}"><br>
-            <label for="blue">Blue: </label><input type="range" id="blue" min="0" max="1023" step="1" name="bluevalue" value="{{ blue }}"><br><br>
-
+            <label for="blue">Blue: </label><input type="range" id="blue" min="0" max="1023" step="1" name="bluevalue" value="{{ blue }}"><br>
+            <label for="brightness"> </label><input type="range" min="0" max="1" step="0.01" id="brightness" name="brightness" value="{{ brightness }}"><br><br>
             <div class="applyButton">
                 <input class="submitButton" type="submit" value="Apply"></form>
                 </div>
